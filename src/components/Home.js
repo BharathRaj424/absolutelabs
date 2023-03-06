@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-container">
-        Hello Static Website! and Implemeneted CI/CD Pipeline for 112 nd time
+        Hello Static Website! and Implemeneted CI/CD Pipeline
       </div>
     );
   }

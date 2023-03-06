@@ -23,4 +23,4 @@ jobs:
         run: pwd
 
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync ./build/  s3://samplewessite.com --delete
+        run: aws s3 sync ./build/  s3://absolutelabs.com --delete
