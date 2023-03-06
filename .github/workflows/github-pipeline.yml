@@ -20,4 +20,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync ../workflows/.github/build/ s3://samplewessite.com --delete
+        run: aws s3 sync ../../build/  s3://samplewessite.com --delete
